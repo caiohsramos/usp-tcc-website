@@ -5,7 +5,7 @@ import Index from './pages/Index'
 import More from './pages/More'
 
 export default () => (
-  <Router>
+  <Router basename='~caiohsramos/mac0499'>
     <Switch>
       <Route path='/more' exact component={More} />
       <Route path='*' component={Index} />
