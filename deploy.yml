@@ -1,0 +1,11 @@
+---
+- hosts: linuxbcc
+  vars:
+    deploy_folder: mac0499
+  tasks:
+    - name: Build static
+      local_action: command yarn run build
+    - name: Copy to server
+      copy:
+        src: build/
+        dest: ~/www/{{ deploy_folder }}/
