@@ -7,14 +7,13 @@ import { Link } from 'react-router-dom'
 export default () => (
     <Grid>
         <Jumbo>
-            <h1>TCC</h1>
+            <h1>TCC - Caio Henrique Silva Ramos</h1>
             <p>
-                This is a simple hero unit, a simple jumbotron-style component for calling
-                extra attention to featured content or information.
+                **Proposta de estudo**
             </p>
             <p>
-                <Link to='/more'>
-                    <Button variant="primary">Learn more</Button>
+                <Link to='/schedule'>
+                    <Button variant="primary">Cronograma</Button>
                 </Link>
             </p>
         </Jumbo>
