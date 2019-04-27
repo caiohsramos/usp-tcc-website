@@ -3,6 +3,7 @@ import Jumbo from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
 import Grid from 'react-bootstrap/Container'
 import { Link } from 'react-router-dom'
+import GitHubButton from 'react-github-btn'
 
 export default () => (
     <Grid>
@@ -22,5 +23,6 @@ export default () => (
                 </Link>
             </p>
         </Jumbo>
+        <GitHubButton href="https://github.com/caiohsramos/tcc-website/archive/master.zip" data-size="large" aria-label="Download caiohsramos/tcc-website on GitHub">Download</GitHubButton>
     </Grid>
 )
