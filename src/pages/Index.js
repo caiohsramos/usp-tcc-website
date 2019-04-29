@@ -2,8 +2,11 @@ import React from 'react'
 import Jumbo from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
 import Grid from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
 import { Link } from 'react-router-dom'
 import GitHubButton from 'react-github-btn'
+import Image from 'react-bootstrap/Image'
+import tcc_image from '../images/tcc.jpg'
 
 export default () => (
     <Grid>
@@ -22,6 +25,9 @@ export default () => (
                     <Button variant="primary">Cronograma</Button>
                 </Link>
             </p>
+            <Row className="justify-content-md-center">
+                <Image src={tcc_image} />
+            </Row>
         </Jumbo>
         <GitHubButton href="https://github.com/caiohsramos/tcc-website/archive/master.zip" data-size="large" aria-label="Download caiohsramos/tcc-website on GitHub">Download</GitHubButton>
     </Grid>
