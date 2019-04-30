@@ -26,14 +26,17 @@ export default () => (
             <p>
                 A motivação para o desenvolvimento desse projeto é que não existe, atualmente, nenhum método que priorize os itens de dívida técnica de forma efetiva e abrangente, ou seja, em diferentes linguagens de programação, tipos de dívida técnica e contextos de projetos.
             </p>
+            <Row className="justify-content-md-center">
+                <Image src={tcc_image} />
+            </Row>
+            <p>
+                A figura anterior representa o modelo a ser seguido no desenvolvimento do projeto. Começando pela lista de dívidas técnicas, pretende-se encontrar métodos que respondam as questões mencionadas na seção anterior, para finalmente ordená-las por importância.
+            </p>
             <p>
                 <Link to='/schedule'>
                     <Button variant="primary">Cronograma</Button>
                 </Link>
             </p>
-            <Row className="justify-content-md-center">
-                <Image src={tcc_image} />
-            </Row>
         </Jumbo>
         <GitHubButton href="https://github.com/caiohsramos/tcc-website/archive/master.zip" data-size="large" aria-label="Download caiohsramos/tcc-website on GitHub">Download</GitHubButton>
     </Grid>
