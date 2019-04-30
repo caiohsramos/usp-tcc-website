@@ -14,11 +14,17 @@ export default () => (
             <h1>TCC - Caio Henrique Silva Ramos</h1>
             <h2>Proposta de trabalho</h2>
             <p>
-                O objetivo do trabalho de formatura é construir uma ferramenta que auxilie na priorização de itens relativos a dívidas técnicas. Dívida técnica (ou débito técnico) é um conceito no desenvolvimento de software que representa os custos adicionais do retrabalho, que pode ser causado por decisões de implementação fáceis ao invés de outras que seriam melhores, porém demorariam mais.
+                O objetivo do trabalho de formatura é desenvolver métodos para priorização de dívida técnica através de uma ferramenta que auxilie nessa tarefa. Dívida técnica é uma metáfora no desenvolvimento de software que representa os custos adicionais do retrabalho, que pode ser causado por decisões de implementação fáceis ao invés de outras que seriam melhores, porém demorariam mais para ser desenvolvida.
             </p>
             <p>
-                O projeto irá focar em responder três questões acerca de um determinado débito técnico: pagar ou não pagar, categorizar sua importância e ordená-lo em relação aos outros débitos. Pretende-se fazer isso utilizando: métricas de código extraídas utilizando a ferramenta SonarQube, projeto open-source para analize contínua da qualidade de código; histórico de commits do Git, software de versionamento mais utilizado no mundo; e informações acerca do desenvolvimento e acompanhamento de tarefas e bugs com o JIRA. As informações serão consolidadas usando algoritmos de machine learning como KNN, CART, regressão linear e logística, SVN e redes neurais para responder as questões propostas no início.
-                A motivação por trás do desenvolvimento desse projeto é que não existe atualmente nenhuma aplicação que use todas as diversas informações disponíveis comentadas no paragrafo anterior para construir um relatório baseado não só no código fonte em si, mas no modelo de desenvolvimento de cada time.
+                O projeto irá focar em responder três questões acerca de um dado item de dívida técnica: pagar ou não pagar, categorizar sua importância de pagamento e lista-la em ordem de pagamento em relação a outros itens. Pretende-se fazer isso utilizando: métricas de código extraídas utilizando a ferramenta SonarQube, projeto open - source para analize contínua da qualidade de código; histórico de commits do Git, software de versionamento mais utilizado no mundo; e dados do desenvolvimento e acompanhamento de tarefas e bugs do JIRA Issue Tracker.
+                    A motivação por trás do desenvolvimento desse projeto é que não existe atualmente nenhuma aplicação que use todas as diversas informações disponíveis comentadas no paragrafo anterior para construir um relatório baseado não só no código fonte em si, mas no modelo de desenvolvimento de cada time.
+            </p>
+            <p>
+                As informações serão consolidadas usando algoritmos de machine learning como: KNN, CART, regressão linear e logística, SVM e redes neurais para responder as questões propostas.
+            </p>
+            <p>
+                A motivação para o desenvolvimento desse projeto é que não existe, atualmente, nenhum método que priorize os itens de dívida técnica de forma efetiva e abrangente, ou seja, em diferentes linguagens de programação, tipos de dívida técnica e contextos de projetos.
             </p>
             <p>
                 <Link to='/schedule'>
