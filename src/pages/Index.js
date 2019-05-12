@@ -12,7 +12,12 @@ export default () => (
     <Grid>
         <Jumbo>
             <h1>TCC - Caio Henrique Silva Ramos</h1>
-            <h2>Proposta de trabalho</h2>
+            <h2>Métodos para extração e priorização de dívida técnica usando algoritmos de <i>machine learning</i></h2>
+            <hr />
+            <h3>Supervisor - Alfredo Goldman</h3>
+            <h3>Co-supervisor - Diogo Pina</h3>
+            <hr />
+            <h3>Proposta de trabalho</h3>
             <p>
                 O objetivo do trabalho de formatura é desenvolver métodos para priorização de dívida técnica através de uma ferramenta que auxilie nessa tarefa. Dívida técnica é uma metáfora no desenvolvimento de software que representa os custos adicionais do retrabalho, que pode ser causado por decisões de implementação fáceis ao invés de outras que seriam melhores, porém demorariam mais para ser desenvolvida.
             </p>
