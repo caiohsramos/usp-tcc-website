@@ -10,19 +10,19 @@ const tableContent = [{
     activity: 'Ferramenta para análise automática usando o Sonar',
     status: 'Concluída'
 }, {
-    date: 'Abr/Mai',
+    date: 'Abr/Mai/Jun',
     activity: 'Relacionar métricas de código com itens de dívida técnica',
     status: 'Em andamento'
 }, {
-    date: 'Mai',
+    date: 'Jun',
     activity: 'Ajuste na ferramenta do Git',
     status: 'Não realizada'
 }, {
-    date: 'Mai',
+    date: 'Jun',
     activity: 'Ajuste na ferramenta do JIRA',
     status: 'Não realizada'
 }, {
-    date: 'Mai',
+    date: 'Jun',
     activity: 'Ajuste na ferramenta do Sonar',
     status: 'Não realizada'
 }, {
