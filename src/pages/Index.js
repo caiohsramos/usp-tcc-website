@@ -44,14 +44,14 @@ export default () => (
       </p>
       <Row>
         <Button
-          href="/tcc2019.pdf"
+          href="./tcc2019.pdf"
           variant="primary"
           style={{ margin: "10px" }}
         >
           Monografia
         </Button>
         <Button
-          href="/tcc2019_poster.pdf"
+          href="./tcc2019_poster.pdf"
           variant="primary"
           style={{ margin: "10px" }}
         >
