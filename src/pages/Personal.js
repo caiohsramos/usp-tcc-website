@@ -36,7 +36,7 @@ export default () => (
         Além disso, a comunicação com o Diogo (cossupervisor) foi prejudicada durante um período do ano por conta de questões pessoais. Mas mesmo assim, ele conseguiu me dar o apoio e a motivação necessária para finalizar o trabalho, se mostrando sempre (que possível) solicito e prestativo.
       </p>
       <p>
-        O último ponto é que foi difícil contruir um calendário e uma proposta com pouco informação ainda sobre o que realmente eu iria desenvolver durante o ano. Só quando comecei a por a "mão na massa" foi que percebi a complexidade e o objetivo geral do tema. Mais difícil ainda foi seguir o cronograma, pois além de além de imprevistos citados anteriormente a complexidade de alguns itens era maior do que aparentava ser.
+        O último ponto é que foi difícil construir um calendário e uma proposta com pouca informação sobre o que realmente eu iria desenvolver durante o ano. Só quando comecei a por a "mão na massa" foi que percebi a complexidade e o objetivo geral do tema. Mais difícil ainda foi seguir o cronograma, pois além dos imprevistos citados anteriormente a complexidade de alguns itens era maior do que aparentava ser.
       </p>
     </Subsection>
     <Subsection title='Diciplinas relevantes para o TCC' hideDivider>
